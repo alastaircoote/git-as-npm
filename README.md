@@ -25,7 +25,7 @@ So what does this script do?
 
  1. Checks out a branch called `release` (or creates it if it doesn't exist).
  2. Merges your current branch into `release`.
- 3. Pulls down a remote copy of the `release` branch, so sync up which version numbers have already been released.
+ 3. Pulls down a remote copy of the `release` branch, to sync up which version numbers have already been released.
  4. Runs `npm prepublish`, if that script exists.
  5. Creates a tag with your current `package.json` version number, throwing an error if that release already exists.
  6. Adds a new remote, as specified in the `repository` field of package.json

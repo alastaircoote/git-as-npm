@@ -100,6 +100,7 @@ if (package.scripts.prepublish) {
         process.stderr.write("Prepublish failed.\n".red)
         failed()
     }
+    exec('git add -A')
     var commitResult = exec('git commit -a -m "git-as-npm prepublish run"')
     var statusOutput = exec('git status --porcelain', {silent: true})
     if (statusOutput.code !== 0 || statusOutput.output != '') {
