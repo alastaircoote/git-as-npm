@@ -1,6 +1,6 @@
 {
   "name": "git-as-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,9 @@
   "dependencies": {
     "colors": "^1.1.2",
     "shelljs": "^0.5.3"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:alastaircoote/git-as-npm.git"
   }
 }
