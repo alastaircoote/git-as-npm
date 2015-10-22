@@ -1,7 +1,9 @@
 git-as-npm
 ===
 
-A quick and dirty (for now) script that gets git to behave a little more like NPM at times when we'd like it to. `publish` is the only command that currently works.
+A quick and dirty (for now) script that gets git to behave a little more like NPM at times when we'd like it to. `publish` is the only command that currently works. Like so:
+
+    git-as-npm publish
 
 Why?
 ---
